@@ -3,7 +3,7 @@ on: workflow_dispatch # manually trigger the workflow
 
 jobs:
   first-job:
-    runs-on: selfhostedrunner01
+    runs-on: self-hosted
     steps:
       - name: Print greeting 
         run: echo "Hello World"
